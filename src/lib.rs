@@ -4,7 +4,7 @@
 //! ```rust
 //! #[cfg(target_arch = "wasm32")]
 //! fn main() {
-//!     replace_html::replace_by_id("body", "Your platform is not supported!").unwrap();
+//!     replace_html::replace_body("Your platform is not supported!").unwrap();
 //! }
 //! #[cfg(not(target_arch = "wasm32"))]
 //! fn main() {
